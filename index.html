@@ -4,63 +4,134 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Web Studio</title>
+    <link 
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer">
     <link rel="stylesheet" href="./css/styles.css">
-
-</head>
+</head> 
 
 <body>
     <header>
         <nav>
-            <a href="#">Logo</a>
-            <ul>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
+            <a href="./index.html" 
+            class="header-logo"> 
+            <span class="header-logo-blue">Web</span>Studio</a>
+
+            <ul class="none1">
+                <li><a href="#studio" class="studio-a">Studio</a></li>
+                <li><a href="#portfolio" class="portfolio-a">Portfolio</a></li>
+                <li><a href="#contacts" class="contacts-a">Contacts</a></li>
             </ul>
+
         </nav>
+        <address>
+            <ul class="none2">
+                <li><a href="mailto:info@devstudio.com" class="info-gmail">info@devstudio.com</a></li>
+                <li><a href="tel:+110001111111" class="info-number">+11 (000) 111-11-11</a></li>
+            </ul>
+        </address>
     </header>
 
     <main>
-        <section id="portfolio">
-            <h2>Our Portfolio</h2>
-            <div class="portfolio-grid">
-                <div class="portfolio-item">
-                    <img src="images/banking-app.jpeg" alt="Banking App">
-                    <h3>Banking App</h3>
-                    <p>App</p>
-                </div>
-                <div class="portfolio-item">
-                    <img src="images/cashless-payment.jpeg" alt="Cashless Payment">
-                    <h3>Cashless Payment</h3>
-                    <p>Marketing</p>
-                </div>
-                <div class="portfolio-item">
-                    <img src="images/meditation-app.jpeg" alt="Meditation App">
-                    <h3>Meditation App</h3>
-                    <p>App</p>
-                </div>
-                <div class="portfolio-item">
-                    <img src="images/taxi-service.jpeg" alt="Taxi Service">
-                    <h3>Taxi Service</h3>
-                    <p>Marketing</p>
-                </div>
-                <div class="portfolio-item">
-                    <img src="images/screen-illustrations.jpeg" alt="Screen Illustrations">
-                    <h3>Screen Illustrations</h3>
-                    <p>Design</p>
-                </div>
-                <div class="portfolio-item">
-                    <img src="images/online-courses.jpeg" alt="Online Courses">
-                    <h3>Online Courses</h3>
-                    <p>Marketing</p>
-                </div>
-            </div>
+        <section class="background">
+            <h1 class="btn-part">Effective Solutions for Your Business</h1>
+            <button type="button" class="button-part">Order Service</button> 
         </section>
+
+        <section>
+            <ul class="none3">
+                <li>
+                    <h3 class="strategy-part">Strategy</h3>
+                    <p class="strategy-text">Our goal is to identify the business problem to walk away with the perfect and creative solution.
+                    </p>
+                </li>
+                <li>
+                    <h3 class="punctuality-part">Punctuality</h3>
+                    <p class="punctuality-text">Bring the key message to the brand's audience for the best price within the shortest possible
+                        time.</p>
+                </li>
+                <li>
+                    <h3 class="diligence-part">Diligence</h3>
+                    <p class="diligence-text">Research and confirm brands with the strongest digital growth opportunities and minimize risk.
+                    </p>
+                </li>
+                <li>
+                    <h3 class="technologies-part">Technologies</h3>
+                    <p class="technologies-text">Design practice focused on digital experiences. We bring forth a deep passion for
+                        problem-solving.</p>
+                </li>
+            </ul>
+        </section>
+
+        <section>
+            <h1 class="ourTeam">Our Team</h1>
+            <ul class="none">
+                <li>
+                    <img src="./images/mark_guerrero.jpg.png" alt="Mark Guerrero" width="264">
+                    <h2 class="mark">Mark Guerrero</h2>
+                    <p class="mark-text">Product Designer</p>
+                </li>
+                <li>
+                    <img src="./images/tom_ford.jpg.png" alt="Tom Ford" width="264">
+                    <h2 class="tom">Tom Ford</h2>
+                    <p class="tom-text">Frontend Developer</p>
+                </li>
+                <li>
+                    <img src="./images/camila_garcia.jpg.png" alt="Camila Garcia" width="264">
+                    <h2 class="camila">Camila Garcia</h2>
+                    <p class="camila-text">Marketing</p>
+                </li>
+                <li>
+                    <img src="./images/daniel_wilson.jpg.png" alt="Daniel Wilson" width="264">
+                    <h2 class="daniel">Daniel Wilson</h2>
+                    <p class="daniel-text">UI Designer</p>
+                </li>
+            </ul>
+        </section>
+
+        <section> 
+            <h2 class="ourPortfolio">Our Portfolio</h2>
+            <ul class="footer-ladder">
+                <li>
+                    <img src="/images/banking-app.png" alt="banking app" width="250">
+                    <h2 class="our1">Banking App</h2>
+                    <p class="our1-text"> App </p>
+                </li>
+                <li>
+                    <img src="/images/cashless-payment.png" alt="cashless payment" width="250">
+                    <h2 class="our2">Cashless Payment</h2>
+                    <p class="our2-text">Marketing</p>
+                </li>
+                <li>
+                    <img src="./images/meditation-app.png" alt="meditation app" width="250">
+                    <h2 class="our3">Meditation App</h2>
+                    <p class="our3-text">App</p>
+                </li>
+                <li>
+                    <img src="./images/taxi-service.png" alt="taxi service" width="250">
+                    <h2 class="our4">Taxi Service</h2>
+                    <p class="our4-text">Marketing</p>
+                </li>   
+                <li>
+                    <img src="./images/screen-illustrations.png" alt="screen illustrations" width="250">
+                    <h2 class="our5">Screen Illustrations</h2>
+                    <p class="our5-text">Design</p>
+                </li>    
+                <li>
+                   <img src="./images/online-courses.png" alt="online courses" width="250">
+                   <h2 class="our6">Online Courses</h2>
+                   <p class="our6-text">Marketing</p>
+                </li>    
+             </ul> 
+          </section>
     </main>
 
-    <footer>
-        <p>&copy; 2025 Portfolio. All Rights Reserved.</p>
+    <footer class="back-footer">
+        <a href="./index.html" class="footer-studio"> <span class="web2-blue">Web</span>Studio</a>
+        <p class="footer-p">Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
     </footer>
 </body>
 

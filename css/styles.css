@@ -1,20 +1,24 @@
 /*------------------ HEADER ---------------*/
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
+} 
 /*------------------ Logo---------------*/
 .header-logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2e2f42;
-}
+    color: #4d5ae5;}
 
 .header-logo-blue {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
@@ -203,8 +207,7 @@
     list-style: none;
 }
 
-kornev7777,
-[19.03.2025 19:52] .ourTeam {
+ .ourTeam {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 36px;
@@ -397,8 +400,7 @@ kornev7777,
     color: #2e2f42;
 }
 
-kornev7777,
-[19.03.2025 19:52] .our5-text {
+ .our5-text {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;

@@ -42,28 +42,11 @@ body {
     color: #404bbf;
 }
 
-.portfolio-a {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-}
-
 .none1 li:nth-child(2) a:hover,
 .none1 li:nth-child(2) a:focus {
     color: #404bbf;
 }
 
-.contacts-a {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-}
 .none1 li:nth-child(3) a:hover,
 .none1 li:nth-child(3) a:focus {
     color: #404bbf;
@@ -427,36 +410,31 @@ body {
     background-color: #2e2f42;
 }
 
-.footer-studio {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.16667;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #f4f4fd;
-}
 
 .web2-blue {
     font-family: "Roboto", sans-serif;
         font-weight: 400;
         font-size: 16px;
-        line-height: 1.5;
+        line-height: 1.17;
         letter-spacing: 0.02em;
-        color: #f4f4fd;
+        color: #4d5ae5;
     }
+
+.web2-blue span {
+    color: #f4f4fd;
+}
 
 
 .footer-p {
 font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     text-transform: uppercase;
-    color: #4d5ae5;
+    color: var(--text-color, #F4F4FD);
 }
 
-/*------------------- section-footer----------------*/
+/*-------------------section-footer----------------*/
 
 /*------------------ HEADER ---------------*/

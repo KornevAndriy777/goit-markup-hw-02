@@ -407,7 +407,7 @@ a {
 
 /*------------------- section-footer----------------*/
 
-.webstudio {
+.webstudio .a {
     background-color: #2e2f42;
     font-family: "Raleway", sans-serif;
         font-weight: 700;
@@ -430,10 +430,6 @@ font-family: "Raleway", sans-serif;
 
 .webb-blue {
     color: #f4f4fd;
-}
-
-.webstudio a {
-    color: #4d5ae5;
 }
 
 /*-------------------section-footer----------------*/

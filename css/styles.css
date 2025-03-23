@@ -4,6 +4,14 @@ body {
     color: #434455;
     background-color: #FFFFFF;
 } 
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
 /*------------------ Logo---------------*/
 
 .header-logo {
@@ -13,17 +21,11 @@ body {
         line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-    color: #2e2f42;
+    color: #4d5ae5;
     }
 
-.header-logo-blue {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4d5ae5;
+.accent {
+    color: #2e2f42;
 }
 
 /*------------------Logo ---------------*/

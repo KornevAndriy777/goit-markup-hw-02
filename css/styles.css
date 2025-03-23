@@ -409,18 +409,14 @@ a {
 
 .back-footer {
     background-color: #2e2f42;
-    font-family: "Roboto", sans-serif;
-        font-weight: 400;
-        font-size: 16px;
+    font-family: "Raleway", sans-serif;
+        font-weight: 700;
+        font-size: 18px;
         line-height: 1.17;
-        letter-spacing: 0.02em;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
         color: #4d5ae5;
 }
-
-.web2-blue span {
-    color: #f4f4fd;
-}
-
 
 .footer-p {
 font-family: "Raleway", sans-serif;
@@ -430,6 +426,10 @@ font-family: "Raleway", sans-serif;
     letter-spacing: 0.02em;
     text-transform: uppercase;
     color: var(--text-color, #F4F4FD);
+}
+
+.webb-blue {
+    color: #f4f4fd;
 }
 
 /*-------------------section-footer----------------*/

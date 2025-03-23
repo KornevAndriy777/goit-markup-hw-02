@@ -154,6 +154,15 @@ color: #2e2f42;}
     cursor: pointer;
 }
 
+
+.button-part:hover {
+    background-color: #404BBF;
+}
+
+.button-part:focus {
+    background-color: #404BBF;
+}
+
 /*------------------- header-button---------------*/
 
 
@@ -163,79 +172,27 @@ color: #2e2f42;}
     list-style: none;
 }
 
-.strategy-part {
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-}
 
-.strategy-text {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-
-.punctuality-part {
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-
-}
-
-.punctuality-text {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-
-.diligence-part {
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-}
-
-.diligence-text {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-
+.strategy-part,
+.punctuality-part,
+.diligence-part,
 .technologies-part {
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-
 }
 
+
+.strategy-text,
+.punctuality-text,
+.diligence-text,
 .technologies-text {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
-}
+    color: #434455;}
 
 /*------------------- main-text---------------*/
 

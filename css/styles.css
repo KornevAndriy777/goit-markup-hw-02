@@ -85,11 +85,6 @@ a {
     color: #434455;
 }
 
-.info-gmail:hover,
-.info-gmail:focus {
-    color: #404bbf;
-        transition: color 0.3s ease;
-}
 
 .info-number {
     font-family: "Roboto", sans-serif;
@@ -100,15 +95,12 @@ a {
     color: #434455;
 }
 
-.info-number:hover {
-    color: #404bbf;
-    transition: color 0.3s ease;
-}
-
+.info-gmail:hover,
+.info-gmail:focus,
+.info-number:hover,
 .info-number:focus {
-    color: #404bbf;
-    transition: color 0.3s ease;
-}
+    color: #404bbf;} 
+
 
 /*------------------- header-info ---------------*/
 
@@ -285,23 +277,24 @@ a {
 
 
 /*------------------- section-ourPortfolio----------------*/
-.ourPortfolio {
+.our-p {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    text-transform: capitalize
 }
 
 .footer-ladder {
     list-style: none;
 }
 
-.our1 {
+.our-w {
     font-family: "Roboto", sans-serif;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
@@ -416,17 +409,13 @@ a {
 
 .back-footer {
     background-color: #2e2f42;
-}
-
-
-.web2-blue {
     font-family: "Roboto", sans-serif;
         font-weight: 400;
         font-size: 16px;
         line-height: 1.17;
         letter-spacing: 0.02em;
         color: #4d5ae5;
-    }
+}
 
 .web2-blue span {
     color: #f4f4fd;

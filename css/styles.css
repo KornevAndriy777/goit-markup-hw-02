@@ -311,104 +311,12 @@ a {
     color: #434455;
 }
 
-.ourz {
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-}
-
-.ourz-text {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-
-.ourf {
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-}
-
-.ourf-text {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-
-.ourg {
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-}
-
-.ourg-text {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-
-.ourh {
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-}
-
- .ourh-text {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-
-.ourj{
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-}
-
-.ourj-text {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-
-}
-
 /*------------------- section-ourPortfolio----------------*/
 
 
 /*------------------- section-footer----------------*/
 
 .webstudio {
-    background-color: #2e2f42;
     font-family: "Raleway", sans-serif;
         font-weight: 700;
         font-size: 18px;
@@ -416,9 +324,10 @@ a {
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4d5ae5;
+        background-color: #2e2f42;
 }
 
-.footer-p {
+.footer {
 font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;

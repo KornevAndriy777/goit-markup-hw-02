@@ -176,6 +176,10 @@ a {
 /*------------------- main-text---------------*/
 
 /*------------------- section-ourTeam----------------*/
+.backfen {
+    background-color: #F4F4FD;
+}
+
 .none {
     list-style: none;
 }

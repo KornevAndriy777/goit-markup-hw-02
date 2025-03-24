@@ -170,15 +170,7 @@ a {
 /*------------------- main-text---------------*/
 
 /*------------------- section-ourTeam----------------*/
-.backfen {
-    background-color: #F4F4FD;
-}
-
- .none {background-color: #FFFFFF
- }
- 
- 
- .ourteam {
+.ourteam {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 36px;
@@ -190,12 +182,13 @@ a {
 
 .mark {
     font-family: "Roboto", sans-serif;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    background-color: #FFFFFF
 }
 
 .mark-text {
@@ -205,14 +198,13 @@ a {
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
-    color: #434455;
-}
+    color: #434455;}
 
 /*------------------- section-ourTeam----------------*/
 
 
 /*------------------- section-ourPortfolio----------------*/
-.ourportfolio {
+.portfolio{
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 36px;

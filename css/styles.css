@@ -152,10 +152,7 @@ a {
 }
 
 
-.strategy-part,
-.punctuality-part,
-.diligence-part,
-.technologies-part {
+.strategy-part {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -164,10 +161,7 @@ a {
 }
 
 
-.strategy-text,
-.punctuality-text,
-.diligence-text,
-.technologies-text {
+.strategy-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -184,11 +178,11 @@ a {
     list-style: none;
 }
 
- .ourTeam {
+ .ourteam {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
@@ -208,66 +202,6 @@ a {
 }
 
 .mark-text {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #434455;
-}
-
-.tom {
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #2e2f42;
-}
-
-.tom-text {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #434455;
-}
-
-.camila {
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #2e2f42;
-}
-
-.camila-text {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #434455;
-}
-
-.daniel {
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #2e2f42;
-}
-
-.daniel-text {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
@@ -331,6 +265,10 @@ a {
         background-color: #2e2f42;
 }
 
+.webb-blue {
+    color: #f4f4fd;
+}
+
 .footer {
 font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -339,10 +277,6 @@ font-family: "Raleway", sans-serif;
     letter-spacing: 0.02em;
     text-transform: uppercase;
     color: var(--text-color, #F4F4FD);
-}
-
-.webb-blue {
-    color: #f4f4fd;
 }
 
 /*-------------------section-footer----------------*/

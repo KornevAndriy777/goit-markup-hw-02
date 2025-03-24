@@ -174,11 +174,7 @@ a {
     background-color: #F4F4FD;
 }
 
-.none {
-    list-style: none;
-}
-
- .ourteam {
+.ourteam {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 36px;
@@ -187,9 +183,6 @@ a {
     text-align: center;
     color: #2e2f42;
 }
-
-
-
 
 .mark {
     font-family: "Roboto", sans-serif;
@@ -215,7 +208,7 @@ a {
 
 
 /*------------------- section-ourPortfolio----------------*/
-.our-p {
+.ourportfolio {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 36px;
@@ -223,7 +216,7 @@ a {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-    text-transform: capitalize
+    text-transform: capitalize;
 }
 
 .footer-ladder {

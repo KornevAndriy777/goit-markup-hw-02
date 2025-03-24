@@ -86,10 +86,9 @@ a {
 }
 
 
-.info-gmail:hover,
-.info-gmail:focus,
-.info-number:hover,
-.info-number:focus {
+
+.info:hover,
+.info:focus {
     color: #404bbf;} 
 
 

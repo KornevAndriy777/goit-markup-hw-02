@@ -174,7 +174,11 @@ a {
     background-color: #F4F4FD;
 }
 
-.ourteam {
+ .none {background-color: #FFFFFF
+ }
+ 
+ 
+ .ourteam {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 36px;
@@ -215,12 +219,8 @@ a {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
-    color: #2e2f42;
     text-transform: capitalize;
-}
-
-.footer-ladder {
-    list-style: none;
+    color: #2e2f42;
 }
 
 .our-w {

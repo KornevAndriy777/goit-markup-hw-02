@@ -76,7 +76,7 @@ a {
     list-style: none;
 }
 
-.info-gmail {
+.info {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
@@ -85,15 +85,6 @@ a {
     color: #434455;
 }
 
-
-.info-number {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
 
 .info-gmail:hover,
 .info-gmail:focus,
@@ -250,15 +241,17 @@ a {
 /*------------------- section-footer----------------*/
 
 .webstudio {
+    background-color: #2e2f42;
+}
+
+.web-color {
     font-family: "Raleway", sans-serif;
         font-weight: 700;
         font-size: 18px;
         line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        color: #4d5ae5;
-        background-color: #2e2f42;
-}
+        color: #4d5ae5;}
 
 .webb-blue {
     color: #f4f4fd;
